@@ -1,11 +1,9 @@
-[
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "thao.com.testapplink",
-      "sha256_cert_fingerprints":
-        ["D0:5D:9B:FF:74:97:36:6C:79:E8:1D:14:0F:C9:97:A9:B3:1B:9B:8B:29:E8:2D:25:65:39:DB:4B:1D:2B:D7:67"]
-    }
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.kwikset.blewifi.dev",
+    "sha256_cert_fingerprints":
+    ["68:58:6C:64:37:2E:1F:88:AD:36:31:98:BA:FD:E3:DF:BE:0B:D0:4F:3D:DA:6E:DF:1C:66:B7:57:BA:FE:79:3B"]
   }
-]
+}]
