@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "thao.com.testapplink",
+      "sha256_cert_fingerprints":
+        ["D0:5D:9B:FF:74:97:36:6C:79:E8:1D:14:0F:C9:97:A9:B3:1B:9B:8B:29:E8:2D:25:65:39:DB:4B:1D:2B:D7:67"]
+    }
+  }
+]
