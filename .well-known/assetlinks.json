@@ -2,7 +2,7 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "com.kwikset.blewifi.dev",
+    "package_name": "com.kwikset.blewifi.xxxxx",
     "sha256_cert_fingerprints":
     ["68:58:6C:64:37:2E:1F:88:AD:36:31:98:BA:FD:E3:DF:BE:0B:D0:4F:3D:DA:6E:DF:1C:66:B7:57:BA:FE:79:3B"]
   }
