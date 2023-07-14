@@ -1,0 +1,41 @@
+[
+    {
+    /*qa weiser release, intergrationKwidsetDebug */
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.weiser.blewifi.dev",
+            "sha256_cert_fingerprints":
+            ["68:58:6C:64:37:2E:1F:88:AD:36:31:98:BA:FD:E3:DF:BE:0B:D0:4F:3D:DA:6E:DF:1C:66:B7:57:BA:FE:79:3B"]
+        }
+    },
+    //qa WeiserDebug
+    {
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.weiser.blewifi.dev",
+            "sha256_cert_fingerprints":
+            ["68:58:6C:64:37:2E:1F:88:AD:36:31:98:BA:FD:E3:DF:BE:0B:D0:4F:3D:DA:6E:DF:1C:66:B7:57:BA:FE:79:3B"]
+        }
+    },
+    //qaKwiksetRlease
+    {
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.kwikset.blewifi",
+            "sha256_cert_fingerprints":
+            ["68:58:6C:64:37:2E:1F:88:AD:36:31:98:BA:FD:E3:DF:BE:0B:D0:4F:3D:DA:6E:DF:1C:66:B7:57:BA:FE:79:3B"]
+        }
+    },
+    //betaWidgetRelase
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.spectrum.giga",
+        "sha256_cert_fingerprints":
+        ["68:58:6C:64:37:2E:1F:88:AD:36:31:98:BA:FD:E3:DF:BE:0B:D0:4F:3D:DA:6E:DF:1C:66:B7:57:BA:FE:79:3B"]
+      }
+]
