@@ -9,7 +9,7 @@
       if (/android/i.test(userAgent)) {      
         // Android redirection
         if (typeof Android !== 'undefined' && typeof Android.isAppInstalled === 'function') {
-          if (Android.isAppInstalled("com.kwikset.blewifi.dev")) {
+          if (Android.isAppInstalled("com.kwikset.blewifi")) {
             // The app is installed, no need to redirect
             return;
           }
