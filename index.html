@@ -7,13 +7,7 @@
       var userAgent = navigator.userAgent || navigator.vendor || window.opera;
           
         // Android redirection             
-      if (/android/i.test(userAgent)) {
-        if (typeof Android !== 'undefined' && typeof Android.isAppInstalled === 'function') {
-          if (Android.isAppInstalled("com.kwikset.blewifi")) {
-            // The app is installed, no need to redirect
-            return;
-          }
-        }        
+      if (/android/i.test(userAgent)) {       
         window.location.href = "https://play.google.com/store/apps/details?id=com.kwikset.blewifi&hl=en&gl=US";
       } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
         // iOS redirection
