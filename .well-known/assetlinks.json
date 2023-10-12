@@ -1,16 +1,5 @@
 [
-  {
-    "relation": [
-      "delegate_permission/common.handle_all_urls"
-    ],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "com.kwikset.blewifi",
-      "sha256_cert_fingerprints": [
-        "B4:94:C6:10:57:F0:E3:EB:C6:9B:00:23:AC:AA:88:CF:99:4A:43:22:3D:66:4A:D0:81:CB:B5:88:65:EB:07:F3"
-      ]
-    }
-  },
+
   {
     "relation": [
       "delegate_permission/common.handle_all_urls"
@@ -18,6 +7,18 @@
     "target": {
       "namespace": "android_app",
       "package_name": "com.kwikset.blewifi.dev",
+      "sha256_cert_fingerprints": [
+        "B4:94:C6:10:57:F0:E3:EB:C6:9B:00:23:AC:AA:88:CF:99:4A:43:22:3D:66:4A:D0:81:CB:B5:88:65:EB:07:F3"
+      ]
+    }
+  },
+    {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.kwikset.blewifi",
       "sha256_cert_fingerprints": [
         "B4:94:C6:10:57:F0:E3:EB:C6:9B:00:23:AC:AA:88:CF:99:4A:43:22:3D:66:4A:D0:81:CB:B5:88:65:EB:07:F3"
       ]
